@@ -1,0 +1,29 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+header{
+    margin:0;
+    padding:0;
+    background-color: #F7AF9D;  
+    display:flex;
+    /* flex:1; */
+    flex-direction: column;
+    align-items: center; 
+    justify-content: center;
+    height: 200px;
+    overflow: hidden;
+    
+}
+#heading{
+    margin: 0;
+}
+.main-container{
+    margin:0;
+    padding:0;
+    background-color: #F3EEC3;
+    overflow: hidden;
+}
