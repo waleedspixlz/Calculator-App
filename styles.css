@@ -1,6 +1,8 @@
-* {
-    box-sizing: border-box;
+*, *::before, *::after {
+    box-sizing: inherit;
 }
+html{ box-sizing: border-box;}
+
 body {
     font-family: 'Inter', sans-serif;
     font-size: 20px;
@@ -26,4 +28,32 @@ header{
     padding:0;
     background-color: #F3EEC3;
     overflow: hidden;
+}
+.numbers-container{
+    margin: 25px;
+    padding:25px;
+    height:400px;
+    width: fit-content;
+    display: grid;
+    border-radius: 70px;
+}
+.numpad-list{
+    margin:0;
+    padding: 0;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 70px;
+    justify-content: space-evenly;
+    background-color:#B1B1B1;
+}
+/* *to style individual rows*/
+.row{
+    display:flex;
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    align-items: center; 
+    margin: 0;
+    padding: 0;
+    font-size: 48px;
 }
