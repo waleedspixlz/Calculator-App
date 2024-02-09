@@ -40,6 +40,13 @@ header{
     justify-content: center;
 }
 
+.button{
+    color: white; 
+    font-weight: bold;
+    background-color: #B1B1B1;
+    font-size: 48px;
+    border: 0;
+}
 .num-and-functions-container{
     display: flex;
     justify-content: space-around;
