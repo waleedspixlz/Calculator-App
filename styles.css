@@ -46,6 +46,14 @@ header{
     background-color: #B1B1B1;
     font-size: 48px;
     border: 0;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px #66666673;
+    
+}
+.button:hover{
+    background-color: #929292;
 }
 .num-and-functions-container{
     display: flex;
