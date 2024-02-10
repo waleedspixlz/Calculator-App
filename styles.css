@@ -41,6 +41,7 @@ header{
 }
 
 .button{
+    width:70px;
     color: white; 
     font-weight: bold;
     background-color: #B1B1B1;
@@ -50,7 +51,6 @@ header{
     cursor: pointer;
     border-radius: 10px;
     box-shadow: 0 2px #66666673;
-    
 }
 .button:hover{
     background-color: #929292;
@@ -74,7 +74,7 @@ header{
     width: 400px;
     display: flex;
     flex-direction: column;
-    border-radius: 70px;
+    border-radius: 20px;
     justify-content: space-evenly;
     background-color:#B1B1B1;
 }
@@ -105,7 +105,7 @@ header{
     height:300px;
     display: flex;
     flex-direction: column;
-    border-radius: 70px;
+    border-radius: 20px;
     justify-content: space-evenly;
     background-color:#B1B1B1;
     display: flex;
@@ -120,6 +120,10 @@ header{
     justify-content: space-evenly; 
     align-items: center; 
     font-size: 48px;
+}
+
+#plus-btn{
+    height:120px
 }
 
 .result-container{

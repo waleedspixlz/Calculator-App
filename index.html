@@ -16,40 +16,40 @@
             <div class="numbers-container">
                 <ul class="numpad-list" style="list-style-type: none;">
                     <div class="row" style="color: white; font-weight: bold;">
-                            <li><span class="button">8</span></li>
-                            <li><span class="button">9</span></li>
-                            <li><span class="button" style="font-size: 40px;">CE</span></li>
+                            <li><button class="button" onclick="displayDigit()">8</button></li>
+                            <li><button class="button" onclick="displayDigit()">9</button></li>
+                            <li><button class="button" style="font-size: 40px;color: #F7E3B0" onclick="displayDigit()">CE</button></li>
                     </div>
                     <div class="row" style="color: white; font-weight: bold;">
-                            <li><button class="button">5</button></li>
-                            <li><button class="button">6</button></li>
-                            <li><button class="button">7</button></li>
+                            <li><button class="button" onclick="displayDigit()">5</button></li>
+                            <li><button class="button" onclick="displayDigit()">6</button></li>
+                            <li><button class="button" onclick="displayDigit()">7</button></li>
                     </div>
                     <div class="row" style="color: white; font-weight: bold;">
-                            <li><button class="button">2</button></li>
-                            <li><button class="button">3</button></li>
-                            <li><button class="button">4</button></li>
+                            <li><button class="button" onclick="displayDigit()">2</button></li>
+                            <li><button class="button" onclick="displayDigit()">3</button></li>
+                            <li><button class="button" onclick="displayDigit()">4</button></li>
                     </div>
                     <div class="row" style="color: white; font-weight: bold;">
-                            <li><span class="button">1</span></li>
-                            <li><span class="button">0</span></li>
-                            <li><span class="button" style="color: #F7E3B0">=</span></li>
+                            <li><button class="button" onclick="displayDigit()">1</button></li>
+                            <li><button class="button" onclick="displayDigit()">0</button></li>
+                            <li><button class="button" style="color: #F7E3B0" onclick="displayDigit()">=</button></li>
                     </div>
                 </ul>
             </div>
             <div class="functions-container">
                 <ul class="function-list" style="list-style-type: none;">
                     <div class="column" style="color: white; font-weight: bold;">
-                        <li><span class="button" style="color:orangered; font-size: 40px;">AC</span></li>
-                        <li><span class="button" style="color: #F7E3B0; font-size: 40px;">%</span></li>
-                        <li><span class="button" style="color: #F7E3B0; font-size: 40px;">x</span></li>
-                        <li><span class="button" style="color: #F7E3B0">-</span></li>
+                        <li><button class="button" style="color:orangered; font-size: 40px;">AC</button></li>
+                        <li><button class="button" style="color: #F7E3B0; font-size: 40px;" onclick="displayDigit()">%</button></li>
+                        <li><button class="button" style="color: #F7E3B0; font-size: 40px;" onclick="displayDigit()">x</button></li>
+                        <li><button class="button" style="color: #F7E3B0" onclick="displayDigit()">-</button></li>
                     </div>
                     <div class="column" style="color: white; font-weight: bold;">
-                        <li><span class="button" style="color: #688588; font-size: 40px;">Del</span></li>
-                        <li><span class="button" style="color: #F7E3B0; font-size: 40px;">/</span></li>
+                        <li><button class="button" style="color: #688588; font-size: 40px;" onclick="delDigit()">Del</button></li>
+                        <li><button class="button" style="color: #F7E3B0; font-size: 40px;" onclick="displayDigit()">/</button></li>
                         <div class="plus-container">
-                            <li><span class="button" style="color: #F7E3B0">+</span></li>
+                            <li><button class="button" id="plus-btn" style="color: #F7E3B0" onclick="displayDigit()">+</button></li>
                         </div>                    
                     </div>
                 </ul>
@@ -59,11 +59,23 @@
         <div class="result-container">
             <div class="input-container">
                 <p style="color:#688588">Input</p>
+                <!-- <input type="text"> -->
             </div>
             <div class="output-container">
                 <p style="color:#D9B6C0">Output</p>
             </div>
         </div>
     </div>
+
+    <!-- !javascript -->
+    <script>
+        function displayDigit() {
+
+        }
+
+        function delDigit(){
+            
+        }
+    </script>
 </body>
 </html> 
