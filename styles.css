@@ -12,7 +12,7 @@ body {
 header{
     margin:0;
     padding:0;
-    background-color: #F7AF9D;  
+    background-color: #788BFF;  
     display:flex;
     /* flex:1; */
     flex-direction: column;
@@ -31,7 +31,7 @@ header{
     height:100vh;
     margin:0;
     padding:0;
-    background-color: #F3EEC3;
+    background-color: #9BB1FF;
     /* overflow: hidden; */
     display:flex;
     /* flex: 1; */
@@ -42,15 +42,15 @@ header{
 
 .button{
     width:70px;
-    color: white; 
+    color: #E2FDFF; 
     font-weight: bold;
-    background-color: #B1B1B1;
+    background-color: #788BFF;
     font-size: 48px;
     border: 0;
     transition-duration: 0.4s;
     cursor: pointer;
     border-radius: 10px;
-    box-shadow: 0 2px #66666673;
+    box-shadow: 0 2px #6472cd;
 }
 .button:hover{
     background-color: #929292;
@@ -76,7 +76,7 @@ header{
     flex-direction: column;
     border-radius: 20px;
     justify-content: space-evenly;
-    background-color:#B1B1B1;
+    background-color:#788BFF;
 }
 
 /* *to style individual rows*/
@@ -107,7 +107,7 @@ header{
     flex-direction: column;
     border-radius: 20px;
     justify-content: space-evenly;
-    background-color:#B1B1B1;
+    background-color:#788BFF;
     display: flex;
     flex-direction: row;
 }
@@ -152,12 +152,13 @@ header{
 }
 
 .output-container{
-    height: 100px;
+    height: 193px;
+    /* width: 450px; */
     display: flex;
-    justify-content: flex-end;
-    padding-right: 20px;
-    width: 300px;
-    background-color: #BF8496;
+    justify-content: flex-start;
+    padding-left: 20px;
+    width: 450px;
+    background-color: #BFD7FF;
     overflow: hidden;
-    border-radius: 0px 0px 35px 35px;
+    border-radius: 20px;
 }
